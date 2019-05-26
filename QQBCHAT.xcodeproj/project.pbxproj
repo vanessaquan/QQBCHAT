@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31449D5121AC917000D29DB9 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31449D5021AC917000D29DB9 /* Message.swift */; };
+		31449D5321AC960300D29DB9 /* LoginControllerHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31449D5221AC960300D29DB9 /* LoginControllerHandler.swift */; };
+		31449D6921B3B02200D29DB9 /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31449D6821B3B02200D29DB9 /* ChatMessageCell.swift */; };
+		31449D6B21B3B04B00D29DB9 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31449D6A21B3B04B00D29DB9 /* UserCell.swift */; };
+		31449D7021B48D1000D29DB9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31449D6F21B48D1000D29DB9 /* Extensions.swift */; };
+		3185D8D2219A769C00069D16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3185D8D1219A769C00069D16 /* AppDelegate.swift */; };
+		3185D8D4219A769C00069D16 /* MessagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3185D8D3219A769C00069D16 /* MessagesController.swift */; };
+		3185D8D7219A769C00069D16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3185D8D5219A769C00069D16 /* Main.storyboard */; };
+		3185D8DA219A769C00069D16 /* QQBCHAT.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3185D8D8219A769C00069D16 /* QQBCHAT.xcdatamodeld */; };
+		3185D8DC219A769D00069D16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3185D8DB219A769D00069D16 /* Assets.xcassets */; };
+		3185D8DF219A769D00069D16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3185D8DD219A769D00069D16 /* LaunchScreen.storyboard */; };
+		3185D8E8219A78D900069D16 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3185D8E7219A78D900069D16 /* LoginController.swift */; };
+		3185D90B219A898D00069D16 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3185D90A219A898D00069D16 /* GoogleService-Info.plist */; };
+		3185D90D21A137A300069D16 /* NewMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3185D90C21A137A300069D16 /* NewMessageController.swift */; };
+		3185D91021A224B500069D16 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3185D90F21A224B500069D16 /* User.swift */; };
+		3185D91221A22AF900069D16 /* ChatLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3185D91121A22AF900069D16 /* ChatLogController.swift */; };
+		E65D63CD0DE805E1A71DB18E /* Pods_QQBCHAT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87448C22F01DC2779D611A86 /* Pods_QQBCHAT.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D71E099F4005708503D746E /* Pods-QQBCHAT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QQBCHAT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QQBCHAT/Pods-QQBCHAT.debug.xcconfig"; sourceTree = "<group>"; };
+		31449D5021AC917000D29DB9 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		31449D5221AC960300D29DB9 /* LoginControllerHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginControllerHandler.swift; sourceTree = "<group>"; };
+		31449D6821B3B02200D29DB9 /* ChatMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageCell.swift; sourceTree = "<group>"; };
+		31449D6A21B3B04B00D29DB9 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		31449D6F21B48D1000D29DB9 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		3185D8CE219A769C00069D16 /* QQBCHAT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQBCHAT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3185D8D1219A769C00069D16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3185D8D3219A769C00069D16 /* MessagesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesController.swift; sourceTree = "<group>"; };
+		3185D8D6219A769C00069D16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3185D8D9219A769C00069D16 /* QQBCHAT.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QQBCHAT.xcdatamodel; sourceTree = "<group>"; };
+		3185D8DB219A769D00069D16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3185D8DE219A769D00069D16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3185D8E0219A769D00069D16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3185D8E7219A78D900069D16 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		3185D90A219A898D00069D16 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3185D90C21A137A300069D16 /* NewMessageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMessageController.swift; sourceTree = "<group>"; };
+		3185D90F21A224B500069D16 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3185D91121A22AF900069D16 /* ChatLogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatLogController.swift; sourceTree = "<group>"; };
+		31969CDCE8E0DB61E4B07CB2 /* Pods-QQBCHAT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QQBCHAT.release.xcconfig"; path = "Pods/Target Support Files/Pods-QQBCHAT/Pods-QQBCHAT.release.xcconfig"; sourceTree = "<group>"; };
+		87448C22F01DC2779D611A86 /* Pods_QQBCHAT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QQBCHAT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3185D8CB219A769C00069D16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E65D63CD0DE805E1A71DB18E /* Pods_QQBCHAT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3185D8C5219A769C00069D16 = {
+			isa = PBXGroup;
+			children = (
+				3185D8D0219A769C00069D16 /* QQBCHAT */,
+				3185D8CF219A769C00069D16 /* Products */,
+				92D28E94D38D4EBC5A2E5F7A /* Pods */,
+				A90109227079C249BF9A188A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3185D8CF219A769C00069D16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3185D8CE219A769C00069D16 /* QQBCHAT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3185D8D0219A769C00069D16 /* QQBCHAT */ = {
+			isa = PBXGroup;
+			children = (
+				3185D8E6219A78A100069D16 /* Controller */,
+				3185D8D1219A769C00069D16 /* AppDelegate.swift */,
+				3185D8D5219A769C00069D16 /* Main.storyboard */,
+				3185D8DB219A769D00069D16 /* Assets.xcassets */,
+				3185D8DD219A769D00069D16 /* LaunchScreen.storyboard */,
+				3185D8E0219A769D00069D16 /* Info.plist */,
+				3185D90A219A898D00069D16 /* GoogleService-Info.plist */,
+				3185D8D8219A769C00069D16 /* QQBCHAT.xcdatamodeld */,
+			);
+			path = QQBCHAT;
+			sourceTree = "<group>";
+		};
+		3185D8E6219A78A100069D16 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				31449D6F21B48D1000D29DB9 /* Extensions.swift */,
+				31449D6A21B3B04B00D29DB9 /* UserCell.swift */,
+				31449D6821B3B02200D29DB9 /* ChatMessageCell.swift */,
+				31449D5021AC917000D29DB9 /* Message.swift */,
+				3185D90F21A224B500069D16 /* User.swift */,
+				3185D8E7219A78D900069D16 /* LoginController.swift */,
+				3185D8D3219A769C00069D16 /* MessagesController.swift */,
+				3185D90C21A137A300069D16 /* NewMessageController.swift */,
+				3185D91121A22AF900069D16 /* ChatLogController.swift */,
+				31449D5221AC960300D29DB9 /* LoginControllerHandler.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		92D28E94D38D4EBC5A2E5F7A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D71E099F4005708503D746E /* Pods-QQBCHAT.debug.xcconfig */,
+				31969CDCE8E0DB61E4B07CB2 /* Pods-QQBCHAT.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A90109227079C249BF9A188A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87448C22F01DC2779D611A86 /* Pods_QQBCHAT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3185D8CD219A769C00069D16 /* QQBCHAT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3185D8E3219A769D00069D16 /* Build configuration list for PBXNativeTarget "QQBCHAT" */;
+			buildPhases = (
+				4ADE97A0E9C672EFE06E7D26 /* [CP] Check Pods Manifest.lock */,
+				3185D8CA219A769C00069D16 /* Sources */,
+				3185D8CB219A769C00069D16 /* Frameworks */,
+				3185D8CC219A769C00069D16 /* Resources */,
+				0010C1EA7EDB0710F8B70D0B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QQBCHAT;
+			productName = QQBCHAT;
+			productReference = 3185D8CE219A769C00069D16 /* QQBCHAT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3185D8C6219A769C00069D16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "XiaoJia Quan";
+				TargetAttributes = {
+					3185D8CD219A769C00069D16 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 3185D8C9219A769C00069D16 /* Build configuration list for PBXProject "QQBCHAT" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3185D8C5219A769C00069D16;
+			productRefGroup = 3185D8CF219A769C00069D16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3185D8CD219A769C00069D16 /* QQBCHAT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3185D8CC219A769C00069D16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3185D8DF219A769D00069D16 /* LaunchScreen.storyboard in Resources */,
+				3185D8DC219A769D00069D16 /* Assets.xcassets in Resources */,
+				3185D8D7219A769C00069D16 /* Main.storyboard in Resources */,
+				3185D90B219A898D00069D16 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0010C1EA7EDB0710F8B70D0B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-QQBCHAT/Pods-QQBCHAT-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QQBCHAT/Pods-QQBCHAT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4ADE97A0E9C672EFE06E7D26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QQBCHAT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3185D8CA219A769C00069D16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31449D5321AC960300D29DB9 /* LoginControllerHandler.swift in Sources */,
+				31449D6921B3B02200D29DB9 /* ChatMessageCell.swift in Sources */,
+				3185D8D4219A769C00069D16 /* MessagesController.swift in Sources */,
+				3185D91221A22AF900069D16 /* ChatLogController.swift in Sources */,
+				3185D90D21A137A300069D16 /* NewMessageController.swift in Sources */,
+				3185D91021A224B500069D16 /* User.swift in Sources */,
+				3185D8E8219A78D900069D16 /* LoginController.swift in Sources */,
+				31449D7021B48D1000D29DB9 /* Extensions.swift in Sources */,
+				31449D5121AC917000D29DB9 /* Message.swift in Sources */,
+				3185D8DA219A769C00069D16 /* QQBCHAT.xcdatamodeld in Sources */,
+				31449D6B21B3B04B00D29DB9 /* UserCell.swift in Sources */,
+				3185D8D2219A769C00069D16 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3185D8D5219A769C00069D16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3185D8D6219A769C00069D16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3185D8DD219A769D00069D16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3185D8DE219A769D00069D16 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3185D8E1219A769D00069D16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3185D8E2219A769D00069D16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3185D8E4219A769D00069D16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D71E099F4005708503D746E /* Pods-QQBCHAT.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 733FJ7GJX9;
+				INFOPLIST_FILE = QQBCHAT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = csm117finalproject.QQBCHAT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3185D8E5219A769D00069D16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31969CDCE8E0DB61E4B07CB2 /* Pods-QQBCHAT.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 733FJ7GJX9;
+				INFOPLIST_FILE = QQBCHAT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = csm117finalproject.QQBCHAT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3185D8C9219A769C00069D16 /* Build configuration list for PBXProject "QQBCHAT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3185D8E1219A769D00069D16 /* Debug */,
+				3185D8E2219A769D00069D16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3185D8E3219A769D00069D16 /* Build configuration list for PBXNativeTarget "QQBCHAT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3185D8E4219A769D00069D16 /* Debug */,
+				3185D8E5219A769D00069D16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3185D8D8219A769C00069D16 /* QQBCHAT.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3185D8D9219A769C00069D16 /* QQBCHAT.xcdatamodel */,
+			);
+			currentVersion = 3185D8D9219A769C00069D16 /* QQBCHAT.xcdatamodel */;
+			path = QQBCHAT.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3185D8C6219A769C00069D16 /* Project object */;
+}
